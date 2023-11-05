@@ -493,7 +493,7 @@ cursor: pointer;
 .footer-flex {
   display: flex;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items:baseline;
   gap: 70px;
   }
 
@@ -573,6 +573,99 @@ background-color: var(--brand-accent-color);
 .footer-social-media-icon {
   fill: rgba(255, 255, 255, 1);
   }
+
+.form {
+  display:flex;
+  flex-direction: row;
+  align-items:flex-end;
+  gap: 12px;
+  }  
+
+.footer-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.input-wrapper {
+  width: 358px;
+  height: 50px; 
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  background: transparent;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-top:15px;
+  padding-left: 16px;
+  padding-bottom: 15px;
+}
+
+.input-wrapper > input {
+  border: none;
+  background: #2F303A; 
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.48px; 
+  }
+
+.footer-input-wrapper > input::placeholder {
+  display: block;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.48px; 
+  border: none;
+  }
+
+.footer-input-wrapper > label {
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.42px;
+  text-transform: uppercase; 
+  width: 100%;
+  }
+
+.form-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background: var(--brand-accent-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #FFF;
+  text-align: center;
+  font-weight: 700;
+  line-height: 2.14;
+  letter-spacing: 0.96px; 
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  cursor: pointer;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button:hover,
+.form-button:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+.form-button > span {
+  display: block;
+} 
+  
+.footer-svg {
+fill: #fff;
+display: block;
+}
 
 .portfolio-cointainer {
   padding-top: 76px;
