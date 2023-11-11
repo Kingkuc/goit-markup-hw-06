@@ -339,6 +339,7 @@ flex-shrink: 0;
 .underline-text {
   color: #2196F3; 
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .accept-input + svg {
@@ -376,6 +377,11 @@ line-height: 1.87;
 letter-spacing: 0.96px; 
 margin: 0 auto 40px auto;
 display: block;
+}
+
+.submit-modal-button:focus,
+.submit-modal-button:hover {
+  cursor: pointer;
 }
 
 .text-list-1-points {
